@@ -1,9 +1,85 @@
-.page {
-  color: #757575;
-  background-color: #fff;
-}
 /* цвет основного текста #757575*/
 /* вторичный цвет #212121*/
 /* белый цвет  #FFFFFF*/
 /* цвет акцента #2196F3*/
 /* цвет фона #E5E5E5*/
+/*цвет фона главной страницы #2F303A */
+:root {
+
+}
+
+body {
+  font-family: Roboto; sans-serif;  
+  color: #757575;
+  background-color: #e5e5e5;
+}
+/* Заголовки*/
+h1,
+h2,
+h3 {
+  font-family: Roboto;
+  text-align: center;
+  color: #212121;
+}
+/* Логотип*/
+.logo:honor {
+  color: #2196F3;
+}
+.logo:focus {
+  color: #ff0000;
+}
+.logo > span:honor {
+  color: #000000;
+}
+.logo >span:focus {
+  color: #ff0000;
+}
+.logo {
+  font-family: Oleo Script;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  font-style: Oleo Script;
+  color: #2196F3;
+}
+.logo > span {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  color: 000000;
+}
+  /* Навигация без логотипа*/
+
+.navigator:honor {
+  color: #212121;
+}
+.navigator:focus {
+  color: #ff0000;
+}
+.portfolio:honor {
+  color: #2196F3;
+}
+.portfolio:focus {
+  color: #ff0000;
+}
+/* Почта и тел*/
+.navigator:honor {
+  color: #757575;
+} 
+.navigator:focus {
+  color: #ff0000;
+}
+/* figma-info-навигация*/
+.navigator {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+
