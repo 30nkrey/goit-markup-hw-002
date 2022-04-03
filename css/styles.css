@@ -152,7 +152,7 @@ h3 {
 }
 /*Section our-projeckts*/
 
-.all-projects {
+.all-projects-jobs {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -175,7 +175,7 @@ h3 {
 .first-blue:active {
   background-color: #2196f3;
 }
-
+/*Section with photo*/
 .special-name {
   font-size: 18px;
   font-weight: 700;
@@ -183,20 +183,13 @@ h3 {
   text-align: left;
   color: #212121;
 }
-.name-projects {
+
+.all-projects-jobs > .photo-projects {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
-}
-.photo-projects {
-  height: 294px;
-  width: 370px;
-  left: 215px;
-  top: 262px;
-  border-radius: 0px;
 }
 /* Section footer*/
 
