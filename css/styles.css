@@ -46,10 +46,10 @@ h3 {
 .logo:focus {
   color: #ff0000;
 }
-.logo > span:honor {
+.logo-span:honor {
   color: #000000;
 }
-.logo > span:focus {
+.logo-span:focus {
   color: #ff0000;
 }
 /*Навигация без логотипа*/
@@ -60,7 +60,7 @@ h3 {
   text-align: left;
 }
 .portfolio:honor {
-  color: #2196f3, #757575;
+  color: #2196f3;
 }
 .portfolio:focus {
   color: #ff0000;
@@ -68,14 +68,12 @@ h3 {
 /* Почта и тел*/
 
 .navigator:honor {
-  color: #2196f3, #757575;
+  color: #2196f3;
 }
 .navigator:focus {
   color: #ff0000;
 }
-.back-color {
-  background-color: #2f303a;
-}
+
 /*Main*/
 .main {
   color: #757575;
@@ -200,4 +198,25 @@ h3 {
   left: 215px;
   top: 262px;
   border-radius: 0px;
+}
+/* Section footer*/
+
+.footer-back-color {
+  background-color: #2f303a;
+}
+.logo-footer > span {
+  color: #ffffff;
+}
+
+.footer-back-color:hover {
+  color: #2196f3;
+}
+.footer-back-color:focus {
+  color: #ff0000;
+}
+.logo-footer-span:hover {
+  color: #ffffff;
+}
+.logo-footer-span:focus {
+  color: #ff0000;
 }
