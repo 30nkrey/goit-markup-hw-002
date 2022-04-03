@@ -12,19 +12,34 @@
 }
 
 body {
+  font-style: normal;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #757575;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 /* Заголовки*/
 h1,
 h2,
 h3 {
+  font-style: bold;
   text-align: center;
   color: #212121;
 }
-
 /* Логотип*/
+.logo {
+  font-style: bold;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  color: #2196f3;
+}
+
+.logo > span {
+  color: #000000;
+}
+
 .logo:honor {
   color: #2196f3;
 }
@@ -37,24 +52,7 @@ h3 {
 .logo > span:focus {
   color: #ff0000;
 }
-.logo {
-  font-family: Oleo Script;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 1.4;
-  text-align: left;
-  font-style: Oleo Script;
-  color: #2196f3;
-}
-.logo > span {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: left;
-  color: #000000;
-}
-/* Навигация без логотипа*/
+/*Навигация без логотипа*/
 .navigator {
   font-size: 14px;
   font-weight: 500;
@@ -68,16 +66,91 @@ h3 {
   color: #ff0000;
 }
 /* Почта и тел*/
-.navigator-cvias {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
-}
-.navigator-cvias:honor {
+
+.navigator:honor {
   color: #2196f3, #757575;
 }
 .navigator:focus {
   color: #ff0000;
 }
-/* figma-info-навигация*/
+.back-color {
+  background-color: #2f303a;
+}
+/*Main*/
+.main {
+  color: #757575;
+}
+/* Section Главная*/
+.our-projects {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: center;
+}
+.our projects {
+  color: #ffffff;
+}
+
+.button-zakaz {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+}
+.button-zakaz {
+  color: #ffffff;
+  background-color: #1988e4;
+}
+
+.button-zakaz:hover {
+  color: #ffffff;
+  background-color: #1988e4;
+}
+
+.button-zakaz:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Section Наши сильные стороны*/
+.our-strong {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: left;
+  color: #212121;
+}
+.our-strong-ul {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  color: #212121;
+}
+.our-strong-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+/*Section Чем мы занимаемся*/
+.we-do {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+.we-do-team > .name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+}
+.we-do-team {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
+}
+/*Section footer*/
