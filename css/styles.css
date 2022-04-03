@@ -183,7 +183,13 @@ h3 {
   text-align: left;
   color: #212121;
 }
-
+.name-project {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: left;
+  color: #757575;
+}
 .all-projects-jobs > .photo-projects {
   font-size: 16px;
   font-weight: 400;
