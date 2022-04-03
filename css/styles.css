@@ -176,13 +176,6 @@ h3 {
   background-color: #2196f3;
 }
 /*Section with photo*/
-.special-name {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  text-align: left;
-  color: #212121;
-}
 
 .all-projects-jobs > .photo-projects {
   font-size: 16px;
@@ -197,7 +190,15 @@ h3 {
   text-align: left;
   color: #757575;
 }
-/* Section footer*/
+
+.special-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: left;
+  color: #212121;
+}
+/*Section footer*/
 
 .footer-back-color {
   background-color: #2f303a;
