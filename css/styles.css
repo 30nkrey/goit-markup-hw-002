@@ -194,3 +194,10 @@ h3 {
   text-align: left;
   color: #757575;
 }
+.photo {
+  height: 294px;
+  width: 370px;
+  left: 215px;
+  top: 262px;
+  border-radius: 0px;
+}
