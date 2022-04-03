@@ -102,12 +102,10 @@ h3 {
 }
 
 .button-zakaz:hover {
-  color: #ffffff;
   background-color: #1988e4;
 }
 
 .button-zakaz:focus {
-  color: #ffffff;
   background-color: #2196f3;
 }
 /* Section Наши сильные стороны*/
@@ -192,7 +190,7 @@ h3 {
   text-align: left;
   color: #757575;
 }
-.photo {
+.photo-projects {
   height: 294px;
   width: 370px;
   left: 215px;
