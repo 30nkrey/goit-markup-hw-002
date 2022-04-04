@@ -32,7 +32,7 @@ ul {
   list-style-type: none;
 }
 /* Логотип*/
-.logo {
+.header-logo {
   font-style: bold;
   font-family: Raleway;
   font-size: 26px;
@@ -42,31 +42,51 @@ ul {
   color: #2196f3;
 }
 
-.logo > span {
+.header-logo > span {
   color: #000000;
 }
-.logo:honor,
-.logo:focus {
-  color: #ff0000;
+.header-logo .link:hover {
+  color:#ff0000;
+}
+.header-logo .link:focus {
+  color:#ff0000;
 }
 
 /*Навигация без логотипа*/
-.navigator {
+.links {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
   text-align: left;
 }
+.links .link:hover {
+  color: #ff0000;
+}
+.links .link:focus {
+  color: #ff0000;
+}
 
 /* Почта и тел*/
-
-.navigator:honor {
+.post-tel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.tel {
+  color: #757575;
+}
+.mail {
+  color: #2196f3;
+}
+.post-tel .link:honor {
   color: #ff0000;
 }
-.navigator:focus {
+.post-tel .link:focus {
   color: #ff0000;
 }
-
+ 
 /*Main*/
 .main {
   color: #757575;
@@ -193,13 +213,20 @@ ul {
 
 .footer-back-color {
   background-color: #2f303a;
-}
-.logo-footer > span {
+}.studio {
   color: #ffffff;
 }
-.footer-back-color:hover {
+
+.footer-back-color  .link:hover {
+  color:#ff0000;
+}
+.footer-back-color  .link:focus {
+  color:#ff0000;
+}
+.link-address .link:hover {
   color: #ff0000;
 }
-.footer-back-color:focus {
+.link-address .link:focus {
   color: #ff0000;
 }
+
