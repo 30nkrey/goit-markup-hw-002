@@ -40,10 +40,10 @@ h3 {
 .logo > span {
   color: #000000;
 }
-
 .logo:honor {
   color: #ff0000;
 }
+
 .logo:focus {
   color: #ff0000;
 }
@@ -152,6 +152,10 @@ h3 {
   font-weight: 400;
   line-height: 1.17;
   text-align: center;
+}
+.team-backgroud-color {
+   background-color: #F5F4FA;
+  ;
 }
 /*Section our-projeckts*/
 
