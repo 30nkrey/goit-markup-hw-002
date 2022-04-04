@@ -42,17 +42,18 @@ h3 {
 }
 
 .logo:honor {
-  color: #2196f3;
+  color: #ff0000;
 }
 .logo:focus {
   color: #ff0000;
 }
-.span-header:honor {
-  color: #000000;
-}
-.span-header:focus {
+.logo-span:honor {
   color: #ff0000;
 }
+.logo-span:focus {
+  color: #ff0000;
+}
+
 /*Навигация без логотипа*/
 .navigator {
   font-size: 14px;
