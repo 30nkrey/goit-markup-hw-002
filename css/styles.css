@@ -62,7 +62,7 @@ h3 {
   text-align: left;
 }
 .portfolio:honor {
-  color: #2196f3;
+  color: #ff0000;
 }
 .portfolio:focus {
   color: #ff0000;
@@ -70,7 +70,7 @@ h3 {
 /* Почта и тел*/
 
 .navigator:honor {
-  color: #2196f3;
+  color: #ff0000;
 }
 .navigator:focus {
   color: #ff0000;
@@ -207,13 +207,13 @@ h3 {
   color: #ffffff;
 }
 .footer-back-color:hover {
-  color: #2196f3;
+  color: #ff0000;
 }
 .footer-back-color:focus {
   color: #ff0000;
 }
 .span-footer:hover {
-  color: #ffffff;
+  color: #ff0000;
 }
 .span-footer:focus {
   color: #ff0000;
