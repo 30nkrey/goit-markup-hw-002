@@ -4,6 +4,7 @@
 /* цвет акцента #2196F3*/
 /* цвет фона #ffffff*/
 /*цвет фона главной страницы #2F303A */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #000000;
@@ -46,10 +47,10 @@ h3 {
 .logo:focus {
   color: #ff0000;
 }
-.logo-span:honor {
+.span-header:honor {
   color: #000000;
 }
-.logo-span:focus {
+.span-header:focus {
   color: #ff0000;
 }
 /*Навигация без логотипа*/
@@ -109,6 +110,7 @@ h3 {
   background-color: #2196f3;
 }
 /* Section Наши сильные стороны*/
+
 .our-strong {
   font-size: 24px;
   font-weight: 700;
@@ -206,16 +208,15 @@ h3 {
 .logo-footer > span {
   color: #ffffff;
 }
-
 .footer-back-color:hover {
   color: #2196f3;
 }
 .footer-back-color:focus {
   color: #ff0000;
 }
-.logo-footer-span:hover {
+.span-footer:hover {
   color: #ffffff;
 }
-.logo-footer-span:focus {
+.span-footer:focus {
   color: #ff0000;
 }
