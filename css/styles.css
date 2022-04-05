@@ -230,26 +230,33 @@ ul {
   color: #212121;
 }
 /*Section footer*/
-
+.footer {
+  font-style: bold;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  color: #2196f3;
+  
+}
 
 .link-address {
+ 
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+
   
 
 }
 
-.footer-back-color {
-  background-color: #2f303a;
-}
 
-.footer-back-color  .link:hover {
+.footer .link:hover {
   color:#ff0000;
 }
-.footer-back-color  .link:focus {
+.footer .link:focus {
   color:#ff0000;
 }
 .link-address .link:hover {
@@ -259,3 +266,6 @@ ul {
   color: #ff0000;
 }
 
+.footer {
+  background-color: #2f303a;
+}
