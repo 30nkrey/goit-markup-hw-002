@@ -33,30 +33,25 @@ ul {
 }
 /* Логотип*/
 
-.web {
-  color: #2196f3;
-}
-.header-logo {
+ .logo {
   font-style: bold;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   text-align: left;
+  text-decoration: none;
   color: #2196f3;
   
 }
-
-
-.header-logo .link:hover {
-  color:#ff0000;
-}
-.header-logo .link:focus {
-  color:#ff0000;
+.logo-s {
+  color: #ffffff;
 }
 
 /*Навигация без логотипа*/
 .links {
+  font-style: normal;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -71,23 +66,13 @@ ul {
 
 /* Почта и тел*/
 .post-tel {
+  font-style: normal;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #212121;
-}
-.mail {
-  color: #2196f3;
-}
-.tel {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #212121;
+  
 }
 
 .post-tel .link:honor {
@@ -241,29 +226,25 @@ ul {
   background-color: #2f303a;
 }
 
-.link-address {
- 
+.links {
+  font-style: normal;
+  font-family: Roboto;
+  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-
-}
-
-
-.footer .link:hover {
-  color:#ff0000;
-}
-.footer .link:focus {
-  color:#ff0000;
-}
-.link-address .link:hover {
-  color: #ff0000;
-}
-.link-address .link:focus {
-  color: #ff0000;
-}
-
-.footer {
   
 }
+.underline {
+  text-decoration: none;
+}
+
+.links .link:hover {
+  color: #ff0000;
+}
+.links .link:focus {
+  color: #ff0000;
+}
+
+
