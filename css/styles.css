@@ -238,7 +238,7 @@ ul {
   line-height: 1.2;
   text-align: left;
   color: #2196f3;
-  
+  background-color: #2f303a;
 }
 
 .link-address {
@@ -247,8 +247,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-
-  
 
 }
 
@@ -267,5 +265,5 @@ ul {
 }
 
 .footer {
-  background-color: #2f303a;
+  
 }
