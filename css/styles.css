@@ -171,7 +171,7 @@ ul {
 /*Section our-projeckts*/
 
 .button {
-  font-family: Roboto;
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
@@ -189,8 +189,9 @@ ul {
 /*Section with photo*/
 
 .all-projects-jobs .special-name {
-  font-family: Roboto;
-  font-size: 18px;  font-weight: 700;
+ 
+  font-size: 18px;  
+  font-weight: 700;
   line-height: 2.0;
   letter-spacing: 0.06em;
   text-align: left; 
