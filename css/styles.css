@@ -13,8 +13,9 @@
 }
 
 body {
-  font-style: normal;
+  font-size: 14px;
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
   color: #757575;
   background-color: #ffffff;
   
@@ -43,7 +44,9 @@ ul {
   text-decoration: none;
   color: #2196f3;
 }
-
+span {
+  color: #000000;
+}
 /*Навигация без логотипа*/
 .links {
   font-style: normal;
@@ -87,7 +90,7 @@ ul {
   line-height: 1.4;
   text-align: center;
 }
-.our projects {
+.our-projects {
   color: #ffffff;
 }
 
@@ -126,6 +129,16 @@ ul {
   text-align: left;
   color: #212121;
 }
+.our-strong-h {
+  font-style: bold;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  
+
+}
 .our-strong-text {
   font-size: 14px;
   font-weight: 400;
@@ -134,12 +147,14 @@ ul {
   text-align: left;
   color: #757575;
 }
-/*Section Team*/
+/*Section Чем занимаются*/
 .we-do {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
+
+  /*Section Team*/
 }
 .we-do-team > .name {
   font-size: 16px;
@@ -157,13 +172,22 @@ ul {
    background-color: #F5F4FA;
   ;
 }
-/*Section our-projeckts*/
-
+/*Section Наши проекты */
+.projects {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-style: bold;
+  text-align: center;
+  color: #212121;
+}
 .button {
-  
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   text-align: center;
   color: #212121;
   background-color: #f5f4fa;
@@ -175,7 +199,7 @@ ul {
 .first-blue:active {
   background-color: #2196f3;
 }
-/*Section with photo*/
+/*Section Projects with photo*/
 
 .all-projects-jobs .special-name {
  
@@ -196,34 +220,35 @@ ul {
 .name-project {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
 }
 
-.special-name {
+.special-name {  
+  font-style: bold;
   font-size: 18px;
   font-weight: 700;
-  line-height: 2;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
 }
-/*Section footer*/
+/*Section Footer*/
 .footer {
   font-style: bold;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: left;
   color: #2196f3;
-  
+
 }
 
 .links {
-  font-style: normal;
-  font-family: Roboto;
-  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
