@@ -70,16 +70,22 @@ ul {
 .post-tel {
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-}
-.tel {
-  color: #757575;
 }
 .mail {
   color: #2196f3;
 }
+.tel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #757575;
+}
+
 .post-tel .link:honor {
   color: #ff0000;
 }
