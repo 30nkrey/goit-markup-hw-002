@@ -32,6 +32,10 @@ ul {
   list-style-type: none;
 }
 /* Логотип*/
+
+.web {
+  color: #2196f3;
+}
 .header-logo {
   font-style: bold;
   font-family: Raleway;
@@ -40,11 +44,10 @@ ul {
   line-height: 1.2;
   text-align: left;
   color: #2196f3;
+  
 }
 
-.header-logo > span {
-  color: #000000;
-}
+
 .header-logo .link:hover {
   color:#ff0000;
 }
@@ -73,7 +76,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #757575;
+  color: #212121;
 }
 .mail {
   color: #2196f3;
@@ -84,7 +87,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #757575;
+  color: #212121;
 }
 
 .post-tel .link:honor {
@@ -228,10 +231,19 @@ ul {
 }
 /*Section footer*/
 
+
+.link-address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  
+
+}
+
 .footer-back-color {
   background-color: #2f303a;
-}.studio {
-  color: #ffffff;
 }
 
 .footer-back-color  .link:hover {
