@@ -40,7 +40,9 @@ ul {
 }
 span {
   color: #000000;
+  
 }
+
 /*Навигация без логотипа*/
 .links {
   font-style: normal;
@@ -48,6 +50,7 @@ span {
   font-weight: 500;
   line-height: 1.2;
   text-align: left;
+  
 }
 .links .link:hover {
   color: #ff0000;
@@ -64,9 +67,11 @@ span {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
   color: #757575;
+  
  }
-.child {
+.post-tel > .child {
   color: #2196f3;
 }
 .post-tel .link:hover {
@@ -81,7 +86,7 @@ span {
   color: #757575;
 }
 /* Section Главная*/
-.main-h {
+.title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -247,15 +252,23 @@ span {
   color: #212121;
 }
 /*Section Footer*/
-
-.logo-foot {
-
+.logo-f {
+  font-style: bold;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+  color: #2196f3;
 }
+
 .links {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+  text-decoration: none;
   
 }
 .underline {
@@ -270,5 +283,8 @@ span {
 }
 .foot-bg {
   background-color: #2F303A;
-  ;
+  
+}
+.logo-f > span {
+  color: #ffffff;
 }
