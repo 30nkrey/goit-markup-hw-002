@@ -73,10 +73,11 @@ a {
   text-align: left;
   text-decoration: none;
   color: #757575;
+}
+.tel {
+color: #757575;
   
- }
-.post-tel > .child {
-  color: #2196f3;
+
 }
 .post-tel .link:hover {
   color: #ff0000;
@@ -110,6 +111,7 @@ a {
 }
 
 .button-zakaz {
+  
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -117,15 +119,23 @@ a {
   text-align: center;
   font-family: inherit;
   color: #ffffff;
-  background-color: #1988e4;
+  cursor: pointer;
+  
+}.first-blue {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
 }
  
 
-.button-zakaz:hover {
+.button-zakaz > .first-blue:hover {
   background-color: #1988e4;
 }
 
-.button-zakaz:focus {
+.button-zakaz > .first-blue:focus {
   background-color: #2196f3;
 }
 /* Section Наши сильные стороны*/
