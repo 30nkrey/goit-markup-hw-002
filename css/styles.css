@@ -40,8 +40,12 @@ ul {
 }
 span {
   color: #000000;
-  
 }
+a {
+  text-decoration: none;
+  
+}  
+
 
 /*Навигация без логотипа*/
 .links {
@@ -113,12 +117,9 @@ span {
   text-align: center;
   font-family: inherit;
   color: #ffffff;
-  
-}
-.button-zakaz {
-  color: #ffffff;
   background-color: #1988e4;
 }
+ 
 
 .button-zakaz:hover {
   background-color: #1988e4;
@@ -268,7 +269,7 @@ span {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-  text-decoration: none;
+  
   
 }
 .underline {
