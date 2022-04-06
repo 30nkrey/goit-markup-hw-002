@@ -120,22 +120,23 @@ color: #757575;
   cursor: pointer;
 }
   
-.first-blue {
+.first-blue-zakaz {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
-  background-color: #188ce8;
+  background-color: #2196f3;
+  color: #ffffff;
 }
  
 
-.button-zakaz > .first-blue:hover {
-  background-color: #1988e4;
+.first-blue-zakaz:hover {
+  color: #188ce8;
 }
 
-.button-zakaz > .first-blue:focus {
-  background-color: #2196f3;
+.first-blue-zakaz:focus {
+  color: #188ce8;
 }
 /* Section Наши сильные стороны*/
 
@@ -220,7 +221,7 @@ color: #757575;
 }
 .first-blue {
   color: #ffffff;
-  background-color: #188ce8;
+  background-color: #2196f3;
 }
 .first-blue:active {
   background-color: #2196f3;
