@@ -79,13 +79,11 @@ color: #757575;
   
 
 }
-.post-tel .link:hover {
-  color: #ff0000;
-}
+.post-tel .link:hover,
 .post-tel .link:focus {
   color: #ff0000;
 }
- 
+
 /*Main*/
 .main {
   color: #757575;
@@ -119,7 +117,7 @@ color: #757575;
   text-align: center;
   font-family: inherit;
   color: #ffffff;
-  background-color: #188ce8;
+  
   cursor: pointer;
 }
   
@@ -287,12 +285,12 @@ color: #757575;
   text-decoration: none;
 }
 
-.links .link:hover {
+.links .link:hover,
+.links .link:focus { 
   color: #ff0000;
 }
-.links .link:focus {
-  color: #ff0000;
-}
+
+
 .foot-bg {
   background-color: #2F303A;
   
