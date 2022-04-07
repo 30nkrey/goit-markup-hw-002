@@ -72,7 +72,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 .tel {
 color: var(--primary-text-color);
@@ -117,7 +117,7 @@ color: var(--primary-text-color);
 .first-blue-zakaz {
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
   background-color: #2196f3;
