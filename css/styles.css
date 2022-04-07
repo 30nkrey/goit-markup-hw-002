@@ -64,12 +64,7 @@ a {
 /* Почта и тел*/
 .post-tel { 
   font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  
-  font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
@@ -77,9 +72,8 @@ a {
 }
 .tel {
 color: #757575;
-  
-
 }
+
 .post-tel .link:hover,
 .post-tel .link:focus {
   color: #ff0000;
@@ -106,7 +100,6 @@ color: #757575;
 }
 
 .button-zakaz {
-  
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
