@@ -169,7 +169,7 @@ color: #757575;
 
   /*Section Team*/
 }
-.we-do-team > .name {
+.we-do-team > .last-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -179,6 +179,7 @@ color: #757575;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
+  color: #212121;
 }
 .last-name {
   color:#212121
