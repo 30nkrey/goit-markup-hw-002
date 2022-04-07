@@ -47,12 +47,13 @@ a {
 }  
 
 /*Навигация без логотипа*/
-.links {
+.links {  
   font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
-  
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;  
 }
+
 .links .link:hover {
   color: #ff0000;
 }
@@ -63,7 +64,12 @@ a {
 /* Почта и тел*/
 .post-tel { 
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  
+  font-weight: 500;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
@@ -131,15 +137,8 @@ color: #757575;
 }
 /* Section Наши сильные стороны*/
 
-.our-strong {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.17;
-  text-align: left;
-  color: #212121;
-}
 .our-strong-ul {
-  line-height: 1.7;
+  line-height: 1.71;
   text-align: left;
   color: #212121;
 }
@@ -149,16 +148,16 @@ color: #757575;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #212121;
-  
+ } 
 
-}
-.our-strong-text {
-  line-height: 1.7;
+.our-text { 
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+
 }
+
 /*Section Чем занимаются*/
 .we-do {
   font-size: 36px;
@@ -169,10 +168,11 @@ color: #757575;
 
   /*Section Team*/
 }
-.we-do-team > .last-name {
+.we-do-team > p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .we-do-team {
@@ -230,16 +230,10 @@ color: #757575;
   line-height: 1.88;
   text-align: left;
 }
-.name-project {
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-}
+
 
 .special-name {  
-  font-style: bold;
+ 
   font-size: 18px;
   font-weight: 700;
   line-height: 2.0;
