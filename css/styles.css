@@ -18,8 +18,8 @@ body {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
   
 }
 /* Заголовки*/
@@ -37,7 +37,7 @@ ul {
   line-height: 1.2;
   text-align: left;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 span {
   color: #000000;
@@ -54,10 +54,8 @@ a {
   text-align: left;  
 }
 
-.links .link:hover {
-  color: #ff0000;
-}
-.links .link:focus {
+.links .link:hover,
+.links .link:focus  {
   color: #ff0000;
 }
 
@@ -68,10 +66,10 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .tel {
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .post-tel .link:hover,
@@ -121,11 +119,8 @@ color: #757575;
 }
  
 
-.first-blue-zakaz:hover {
-  color: #188ce8;
-}
-
-.first-blue-zakaz:focus {
+.first-blue-zakaz:hover,
+.first-blue-zakaz:focus  {
   color: #188ce8;
 }
 /* Section Наши сильные стороны*/
@@ -133,7 +128,7 @@ color: #757575;
 .our-strong-ul {
   line-height: 1.71;
   text-align: left;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .our-strong-h {
   font-style: bold;
@@ -147,7 +142,7 @@ color: #757575;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
+  color: var(--primary-text-color);
 
 }
 
@@ -157,7 +152,7 @@ color: #757575;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
-  color: #000;
+  color: var(--title-text-color);
 
   /*Section Team*/
 }
@@ -172,16 +167,17 @@ color: #757575;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .last-name {
-  color:#212121
+  color: var(--title-text-color);
 }
 .team-backgroud-color {
    background-color: #F5F4FA;
   ;
 }
 /*Section Наши проекты */
+
 .projects {
   font-size: 44px;
   font-weight: 900;
@@ -190,7 +186,7 @@ color: #757575;
   text-align: center;
   font-style: bold;
   text-align: center;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .button {
   font-size: 16px;
@@ -243,14 +239,13 @@ color: #757575;
   line-height: 1.2;
   text-align: left;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .links {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-   
 }
 .underline {
   text-decoration: none;
@@ -260,10 +255,8 @@ color: #757575;
 .links .link:focus { 
   color: #ff0000;
 }
-
 .foot-bg {
   background-color: #2F303A;
-  
 }
 .logo-f > span {
   color: #ffffff;
