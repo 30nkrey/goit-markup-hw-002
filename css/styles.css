@@ -125,8 +125,7 @@ color: var(--primary-text-color);
 }
  
 
-.first-blue-zakaz:hover,
-.first-blue-zakaz:focus  {
+.first-blue-zakaz:hover  {
   color: #188ce8;
 }
 /* Section Наши сильные стороны*/
