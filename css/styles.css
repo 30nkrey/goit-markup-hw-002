@@ -243,6 +243,7 @@ color: var(--primary-text-color);
 }
 
 .links {
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
