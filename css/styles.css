@@ -53,8 +53,14 @@ a {
   letter-spacing: 0.02em;
   text-align: left;  
 }
-
-.links .link:hover,
+.link-current {
+  color: var(--accent-color);
+}
+.links .link-current:hover,
+.links .link-current:focus {
+  color: #ff0000;
+}
+.links .link :hover,
 .links .link:focus  {
   color: #ff0000;
 }
