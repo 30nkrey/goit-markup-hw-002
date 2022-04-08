@@ -48,7 +48,7 @@ a {
 /*Навигация без логотипа*/
 .links {  
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;  
 }
@@ -184,8 +184,6 @@ color: var(--primary-text-color);
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
-  font-style: bold;
   text-align: center;
   color: var(--title-text-color);
 }
