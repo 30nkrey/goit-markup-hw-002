@@ -14,7 +14,7 @@
 }
 
 body {
-  font-style: normal;
+  
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -30,7 +30,6 @@ ul {
 /* Логотип*/
 
  .logo {
-  font-style: bold;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -135,12 +134,11 @@ color: var(--primary-text-color);
   color: var(--title-text-color);
 }
 .our-strong-h {
-  
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
- } 
+}
 
 .our-text { 
   line-height: 1.71;
@@ -174,7 +172,12 @@ color: var(--primary-text-color);
   text-align: center;
   color: var(--title-text-color);
 }
-.last-name {
+.last-name { 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 .team-backgroud-color {
