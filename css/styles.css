@@ -220,14 +220,13 @@ background-color: #f5f4fa;
   background-color: #2196f3;
 }
 /*Section Projects with photo*/
-.all-projects-jobs .special-name {
-  font-size: 18px;  
-  font-weight: 700;
-  line-height: 2.0;
-  letter-spacing: 0.06em;
-  text-align: left; 
 
+.all-projects-jobs {
+  display: inline-block;
+  width: 370;
+  height: 294;
 }
+
 .special-name {
   font-size: 18px;
   font-weight: 700;
@@ -252,7 +251,10 @@ color: var(--primary-text-color);
   line-height: 1.88;
   text-align: left;
 }
+.conteiner {
+  
 
+}
 /*Section Footer*/
 .logo-f {
   font-style: bold;
