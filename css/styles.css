@@ -111,7 +111,15 @@ color: var(--primary-text-color);
   color: #ffffff;
   cursor: pointer;
 }
+ .zakaz {
   
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  
+ } 
 .first-blue-zakaz {
   font-size: 16px;
   font-weight: 500;
@@ -139,38 +147,41 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   text-align: left;
 }
+.our-text-p {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
 
+}
 .our-text { 
-  line-height: 1.71;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: var(--primary-text-color);
-
+  
 }
 
 /*Section Чем занимаются*/
 .we-do {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  text-align: left;
   color: var(--title-text-color);
 
   /*Section Team*/
 }
-.we-do-team > p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-.we-do-team {
-  font-size: 16px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--title-text-color);
+.we-do-team > .name {
+
+
+
+
+
 }
 .last-name { 
   font-size: 16px;
@@ -229,8 +240,7 @@ color: var(--primary-text-color);
 }
 
 
-.special-name {  
- 
+.special-name { 
   font-size: 18px;
   font-weight: 700;
   line-height: 2.0;
