@@ -50,28 +50,32 @@ a {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  text-align: left;  
+  text-align: left; 
+  color: #212121; 
 }
 .link-current {
   color: var(--accent-color);
 }
 .links .link-current:hover,
 .links .link-current:focus {
-  color: #ff0000;
+  color: #2196f3;
 }
 .links .link :hover,
 .links .link:focus  {
-  color: #ff0000;
+  color: #2196f3;
 }
 
 /* Почта и тел*/
-.post-tel { 
+.post-tel {   
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--primary-text-color);
+}
+.mail {
+  color: var(--primary-text-color);
 }
 .tel {
 color: var(--primary-text-color);
@@ -79,7 +83,7 @@ color: var(--primary-text-color);
 
 .post-tel .link:hover,
 .post-tel .link:focus {
-  color: #ff0000;
+  color: #2196f3;
 }
 
 /* Section Главная*/
@@ -110,11 +114,11 @@ color: var(--primary-text-color);
   font-family: inherit;
   color: #ffffff;
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
 
 .zakaz:hover  {
-  color: #188ce8;
+  color: #2196f3;
 }
   
 
@@ -271,7 +275,7 @@ color: var(--primary-text-color);
 
 .links .link:hover,
 .links .link:focus { 
-  color: #ff0000;
+  color: #2196f3;
 }
 .foot-bg {
   background-color: #2F303A;
