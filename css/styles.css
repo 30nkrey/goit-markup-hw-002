@@ -212,7 +212,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 background-color: #f5f4fa;
-cursor: pointer;
+
 }
 .pointer {
   cursor: pointer;
@@ -227,8 +227,6 @@ cursor: pointer;
 }
 /*Section Projects with photo*/
 
-
-
 .special-name {
   font-size: 18px;
   font-weight: 700;
@@ -238,7 +236,6 @@ cursor: pointer;
   color: var(--title-text-color);
 }  
 
-
 .job {
 font-size: 16px;
 font-weight: 400;
@@ -247,7 +244,6 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--primary-text-color);
 }
-
 
 /*Section Footer*/
 .logo-f {
