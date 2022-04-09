@@ -252,11 +252,11 @@ color: var(--primary-text-color);
 
 /*Section Footer*/
 .logo-f {
-  font-style: bold;
+  
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.17;
   text-align: left;
   text-decoration: none;
   color: var(--accent-color);
@@ -267,6 +267,9 @@ color: var(--primary-text-color);
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+}
+.opacity {
+  color: rgba(255, 255, 255, 0.6);
 }
 .underline {
   text-decoration: none;
