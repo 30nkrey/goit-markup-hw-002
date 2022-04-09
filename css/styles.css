@@ -221,8 +221,7 @@ cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
 }
-.first-blue:hover,
-.first-blue:focus,
+
 .first-blue:active {
   color: #ffffff;
 }
