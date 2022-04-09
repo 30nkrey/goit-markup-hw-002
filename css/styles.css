@@ -267,6 +267,9 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   text-align: left;
 }
+.add {
+color: #ffffff;
+}
 .opacity {
   color: rgba(255, 255, 255, 0.6);
 }
