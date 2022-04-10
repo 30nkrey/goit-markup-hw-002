@@ -210,12 +210,15 @@ font-weight: 500;
 line-height: 1.63;
 letter-spacing: 0.03em;
 text-align: center;
-color: #212121;
-background-color: #f5f4fa;
+
 
 }
 .pointer {
   cursor: pointer;
+}
+.btn {
+  color: #212121;
+  background-color: #f5f4fa;
 }
 .first-blue {
   color: #ffffff;
