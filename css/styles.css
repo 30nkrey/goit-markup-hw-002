@@ -39,14 +39,15 @@ ul {
   color: var(--accent-color);
 }
 span {
-  color: #000000;
+  color: var(--title-text-color);
 }
 a {
   text-decoration: none;
 }  
 
 /*Навигация без логотипа*/
-.links {  
+.links { 
+  font-size: 14px; 
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -70,7 +71,8 @@ a {
 }
 
 /* Почта и тел*/
-.post-tel {   
+.post-tel {  
+  font-size: 14px; 
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -87,7 +89,7 @@ color: var(--primary-text-color);
 
 .post-tel .link:hover,
 .post-tel .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Section Главная*/
@@ -118,11 +120,11 @@ color: var(--primary-text-color);
   font-family: inherit;
   color: #ffffff;
   cursor: pointer;
-  background-color: #188ce8;
+  background-color: var(--accent-color);
 }
 
 .zakaz:hover  {
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
   
 
@@ -137,11 +139,13 @@ color: var(--title-text-color);
 }
 
 .our-strong-h {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
+  text-transform: uppercase;
 }
 
 .our-strong-f {
@@ -154,6 +158,7 @@ color: var(--title-text-color);
  
 }
 .our-text-p {
+font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 text-align: left;
@@ -201,7 +206,7 @@ color: var(--primary-text-color);
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
  
@@ -215,7 +220,6 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 text-align: center;
 
-
 }
 .pointer {
   cursor: pointer;
@@ -224,13 +228,19 @@ text-align: center;
   color: #212121;
   background-color: #f5f4fa;
 }
-.first-blue {
+.btn:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
 
-.first-blue:active {
+.first-blue {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.first-blue:active {
+  background-color: #ffffff;
 }
 /*Section Projects with photo*/
 
@@ -264,6 +274,7 @@ color: var(--primary-text-color);
 }
 
 .links {
+  font-weight: 400;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -281,7 +292,7 @@ color: #ffffff;
 
 .links .link:hover,
 .links .link:focus { 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .foot-bg {
   background-color: #2F303A;
