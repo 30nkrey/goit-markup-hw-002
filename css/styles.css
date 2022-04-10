@@ -51,8 +51,12 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left; 
-  color: #212121; 
 }
+
+.clr {
+  color: #212121;
+}
+
 .link-current {
   color: var(--accent-color);
 }
