@@ -51,7 +51,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left; 
-  color: var(--title-text-color); 
+  color: #212121; 
 }
 .link-current {
   color: var(--accent-color);
