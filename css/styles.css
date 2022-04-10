@@ -51,18 +51,18 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left; 
-  color: #212121; 
+  color: var(--title-text-color); 
 }
 .link-current {
   color: var(--accent-color);
 }
 .links .link-current:hover,
 .links .link-current:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .links .link :hover,
 .links .link:focus  {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Почта и тел*/
