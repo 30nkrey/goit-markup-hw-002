@@ -224,7 +224,7 @@ text-align: center;
   background-color: #2196f3;
 }
 .first-blue:active {
-  background-color: #ffffff;
+  color: var(--accent-color);
 }
 /*Section Projects with photo*/
 
