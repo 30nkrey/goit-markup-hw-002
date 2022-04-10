@@ -151,7 +151,7 @@ color: var(--title-text-color);
 .our-strong-f {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121; 
@@ -167,7 +167,7 @@ color: var(--primary-text-color);
 }
 .our-text { 
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-text-color);
