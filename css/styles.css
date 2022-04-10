@@ -47,13 +47,13 @@ a {
 /*Навигация без логотипа*/
 .links { 
   font-size: 14px; 
-  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left; 
 }
 
 .clr {
+  font-weight: 500;
   color: #212121;
 }
 
@@ -215,17 +215,12 @@ text-align: center;
   color: #212121;
   background-color: #f5f4fa;
 }
-.btn:hover {
+.btn:hover, 
+.btn:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
-.first-blue {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.first-blue:active {
-  color: var(--accent-color);
-}
+
 /*Section Projects with photo*/
 
 .special-name {
