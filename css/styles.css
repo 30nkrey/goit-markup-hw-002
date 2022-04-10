@@ -119,7 +119,7 @@ color: var(--primary-text-color);
   font-family: inherit;
   color: #ffffff;
   cursor: pointer;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .zakaz:hover  {
