@@ -1,14 +1,25 @@
 /* цвет основного текста #757575*/
 /* вторичный цвет #212121*/
 /* цвет акцента #2196F3*/
+/* цвет акцента вторичный #188ce8*/
 /* цвет фона #ffffff*/
+/*цвет заголовков #000000*/
 /*цвет фона главной страницы #2F303A */
+/*цвет фона кнопок #F5F4FA*/
+
 
 :root {
   --primary-text-color: #757575;
-  --title-text-color: #000000;
+  --second-text-color: #212121;
   --accent-color: #2196f3;
+  --accent-color-second: #188ce8;
   --background-color: #ffffff;
+  --title-text-color: #000000;
+  --background-color-ft: #2f303a;
+  --background-color-btn: #F5F4FA;
+  
+ 
+ 
   
 }
 
@@ -54,7 +65,7 @@ a {
 
 .clr {
   font-weight: 500;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .link-current {
@@ -98,8 +109,9 @@ color: var(--primary-text-color);
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #ffffff;
+  color: var(--background-color);
   text-transform: uppercase;
+  background-color: var(--background-color-ft);
    
 }
 .our-projects {
@@ -108,7 +120,7 @@ color: var(--primary-text-color);
   left: 0px;
   top: 80px;
   border-radius: 0px;
-  background-color: #2F303A;
+  background-color: var(--background-color-card);
 }
 
 .zakaz {
@@ -118,13 +130,13 @@ color: var(--primary-text-color);
   letter-spacing: 0.06em;
   text-align: center;
   font-family: inherit;
-  color: #ffffff;
+  color: var(--background-color);
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .zakaz:hover  {
-  background-color: #188ce8;
+  background-color: var(--accent-color-second);
 }
   
 
@@ -144,7 +156,7 @@ color: var(--title-text-color);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #212121;
+  color: var(--second-text-color);
   text-transform: uppercase;
 }
 
@@ -154,7 +166,7 @@ color: var(--title-text-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121; 
+  color: var(--second-text-color); 
  
 }
 .our-text-p {
@@ -187,7 +199,7 @@ color: var(--primary-text-color);
   color: var(--title-text-color);
 }
 .team-backgroud-color {
-  background-color: #F5F4FA;
+  background-color: var(--background-color-btn);
   
 }
 /*Section Наши проекты */
@@ -208,20 +220,21 @@ font-weight: 500;
 line-height: 1.63;
 letter-spacing: 0.03em;
 text-align: center;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+
 }
 .pointer {
   cursor: pointer;
 }
 .btn {
-  color: #212121;
-  background-color: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--second-text-color);
+  background-color: var(--background-color-btn);
 }
 .btn:hover, 
 .btn:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
 
 /*Section Projects with photo*/
@@ -263,7 +276,7 @@ color: var(--primary-text-color);
   text-align: left;
 }
 .add {
-color: #ffffff;
+color: var(--background-color);
 }
 .opacity {
   color: rgba(255, 255, 255, 0.6);
@@ -277,8 +290,8 @@ color: #ffffff;
   color: var(--accent-color);
 }
 .foot-bg {
-  background-color: #2F303A;
+  background-color: var(--background-color-ft);
 }
 .logo-f > span {
-  color: #ffffff;
+  color: var(--background-color);
 }
